@@ -1,6 +1,8 @@
 com\svalero\reloj\util\R.class
 com\svalero\reloj\controller\AppController.class
 com\svalero\reloj\tasks\TimerTask.class
+com\svalero\reloj\tasks\CronometroTask.class
+com\svalero\reloj\controller\ShowCronometroController.class
 com\svalero\reloj\controller\ShowWatchController.class
 com\svalero\reloj\model\Timer.class
 com\svalero\reloj\App.class

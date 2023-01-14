@@ -3,6 +3,7 @@ package com.svalero.reloj.controller;
 
 import com.svalero.reloj.tasks.ClockTask;
 import com.svalero.reloj.tasks.TimerTask;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 
@@ -13,6 +14,7 @@ import java.util.ResourceBundle;
 public class ShowWatchController implements Initializable {
 
     TimerTask timerTask;
+    @FXML
     Label lbTiempo;
     public ShowWatchController(int numero) {
         this.timerTask = new TimerTask(numero);

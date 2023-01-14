@@ -4,3 +4,12 @@
 15:16:22.938 [Thread-3] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
 15:17:12.608 [Thread-3] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
 15:17:16.530 [Thread-4] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
+15:20:52.851 [Thread-3] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
+15:20:57.585 [Thread-4] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
+15:38:49.867 [Thread-3] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
+15:43:16.709 [Thread-3] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
+15:43:23.563 [Thread-4] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
+15:44:50.207 [Thread-3] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
+15:44:56.328 [Thread-4] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
+15:50:02.083 [Thread-3] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada
+15:50:08.119 [Thread-4] TRACE com.svalero.reloj.tasks.TimerTask - Timer iniciada

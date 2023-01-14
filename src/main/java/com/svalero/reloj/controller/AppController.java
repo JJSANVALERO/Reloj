@@ -22,10 +22,14 @@ public class AppController implements Initializable {
 
     @FXML
     public Label lbReloj;
+    @FXML
     public TextField tfCuentaAtras;
+    @FXML
     public Button btCuentaAtras;
 //    public Button btCronometro;
+    @FXML
     public TabPane tpTemporizadores;
+    @FXML
     public Tab tab = new Tab();
 
 
@@ -53,13 +57,31 @@ public class AppController implements Initializable {
     private void launch() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(R.getUi("savedTimes.fxml"));
+            loader.setLocation(R.getUi("timer.fxml"));
 
             ShowWatchController showWatchController = new ShowWatchController(numero);
             loader.setController(showWatchController);
             VBox downloadBox = loader.load();
 
             String filename = "Cuenta atras " + numero;
+            tpTemporizadores.getTabs().add(new Tab(filename, downloadBox));
+
+        }catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    @FXML
+    private void launchCronometro(ActionEvent event){
+        try {
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(R.getUi("timer.fxml"));
+
+            ShowCronometroController showCronometroController = new ShowCronometroController();
+            loader.setController(showCronometroController);
+            VBox downloadBox = loader.load();
+
+            String filename = "Cronometro " + numero;
             tpTemporizadores.getTabs().add(new Tab(filename, downloadBox));
 
         }catch (IOException ioe) {
