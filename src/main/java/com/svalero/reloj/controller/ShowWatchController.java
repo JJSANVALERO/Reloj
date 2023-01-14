@@ -1,7 +1,7 @@
 package com.svalero.reloj.controller;
 
 
-import com.svalero.reloj.tasks.ClockTask;
+
 import com.svalero.reloj.tasks.TimerTask;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

@@ -5,5 +5,4 @@ com\svalero\reloj\tasks\CronometroTask.class
 com\svalero\reloj\controller\ShowCronometroController.class
 com\svalero\reloj\controller\ShowWatchController.class
 com\svalero\reloj\App.class
-com\svalero\reloj\tasks\StopWatchTask.class
 com\svalero\reloj\tasks\ClockTask.class
