@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="256.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox prefHeight="140.0" prefWidth="600.0">
@@ -21,7 +20,7 @@
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
             <Button fx:id="btInicio" mnemonicParsing="false" text="Iniciar" />
-            <Button fx:id="btParar" mnemonicParsing="false" text="Parar" />
+            <Button fx:id="btParar" mnemonicParsing="false" onAction="#stop" text="Parar" />
             <Button fx:id="btReiniciar" mnemonicParsing="false" text="Reiniciar" />
          </children>
       </HBox>

@@ -27,10 +27,8 @@
             <Button fx:id="btCronometro" mnemonicParsing="false" onAction="#launchCronometro" text="Cronometro" />
          </children>
       </HBox>
-      <TabPane fx:id="tpTemporizadores" prefHeight="288.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+      <TabPane fx:id="tpTemporizadores" prefHeight="288.0" prefWidth="600.0" tabClosingPolicy="ALL_TABS">
         <tabs>
-          <Tab text="Untitled Tab 1" />
-          <Tab text="Untitled Tab 2" />
         </tabs>
       </TabPane>
    </children>
