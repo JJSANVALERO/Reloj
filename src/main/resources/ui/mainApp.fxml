@@ -19,7 +19,7 @@
       <HBox prefHeight="49.0" prefWidth="600.0">
          <children>
             <TextField fx:id="tfCuentaAtras" />
-            <Button fx:id="btCuentaAtras" mnemonicParsing="false" text="Cuenta Atras" />
+            <Button fx:id="btCuentaAtras" mnemonicParsing="false" onAction="#launchCuenta" text="Cuenta Atras" />
          </children>
       </HBox>
       <HBox prefHeight="100.0" prefWidth="200.0">
